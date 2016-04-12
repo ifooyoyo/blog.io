@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mysql简明语法
+title: Mysql简明语法
 date: 2016-04-10
 categories: blog
 tags: [写作,入门]
