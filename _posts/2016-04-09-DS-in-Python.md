@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 排序算法的几点记录
-date: 2016-04-11
+date: 2016-04-09
 categories: blog
 tags: [算法]
 description: Python笔记
@@ -77,3 +77,7 @@ def InsertSort(alist):
 - 冒泡排序
 - 选择排序
 - 插入排序 1,6,3,5,9,12,67,32
+
+## 未完待续
+
+存在一些错误，之后再补
