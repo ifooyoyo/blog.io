@@ -17,8 +17,10 @@ description: 都是自己常用的一些命令
 cd是change directory的缩写，切换路径的意思。第一种方法是使用相对路径，`.`指的是当前目录，`..`指的是上级目录，这里指的就是就是home目录；第二种用的是绝对路径。
 
 如果没有home/test/test1目录怎么办？没关系，这里要用到mkdir命令新建目录。
-`make home/test/test1`
+`mkdir home/test/test1`
 新建文件用`touch filename`就行，比如`touch test.txt`。用`vim test.txt`也可以创建。
+
+**移动文件**：mv home/test/test1 home/yoyo
 
 想查看当前目录下文件，用`ls`命令就好，`ls [-a] yoyo/www/`查看的就是`www`目录下的文件。如果加上`-a`，隐藏文件也可以查看
 
