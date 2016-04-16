@@ -37,7 +37,9 @@ top 也是一个很不错的命令，作用于ps aux类似，侧重于查看进�
 最常用的就是ping了，例如ping google.com（什么？ping不通，平常心），检查本机和目标主机的连通性。
 还有一个就是ifconfig，查看ip地址
 
-
+## 其他
+关机：`shutdown -h(-r) now` `-r`是重启
+whoios
 
 ## 一些软件
 
