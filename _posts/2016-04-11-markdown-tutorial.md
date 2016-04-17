@@ -76,4 +76,5 @@ Sublime+Markdown Preview组合、马克飞象、Cmd Markdown等都是不错的�
 
 ## 关于
 
-4月13日第二次更新：修改错误，增加七牛云的介绍(错误在所难免，见谅)
+4月13日第二次更新：修改错误，增加七牛云的介绍(错误在所难免，见谅),找到新资料，深入阅读请移步
+[markdown入门学习小结](http://www.jianshu.com/p/21d355525bdf#fn_link_a)
