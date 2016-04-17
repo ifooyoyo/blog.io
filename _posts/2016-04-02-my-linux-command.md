@@ -41,6 +41,8 @@ top 也是一个很不错的命令，作用于ps aux类似，侧重于查看进�
 
 ## 其他
 关机：`shutdown -h(-r) now` `-r`是重启
+
+偷懒命令：alias，可以为命令起别称，例如alias l=“ls-al"，之后输入命令l就相当于输入ls -al了。
 whoios
 
 ## 一些软件
