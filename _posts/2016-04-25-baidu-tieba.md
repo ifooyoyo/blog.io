@@ -1,10 +1,10 @@
 ---
 layout: post
-title:百度贴吧被卖
+title: 百度贴吧被卖
 date: 2016-04-25
-categories:思考
+categories: 思考
 tags: [学习]
-description:一篇旧文
+description: 一篇旧文
 ---
 
 ## 关于百度血友病吧被卖的几点思考
