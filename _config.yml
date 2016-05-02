@@ -50,7 +50,7 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : fooyoyho
+    short_name : fooyoyo
   disqus :
       short_name : fooyoyo
 
