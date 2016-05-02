@@ -4,7 +4,7 @@ title: 排序算法的几点记录
 date: 2016-04-09
 categories: blog
 tags: [算法]
-description: Python笔记
+description: "Python笔记"
 ---
 
 ## 冒泡排序

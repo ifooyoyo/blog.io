@@ -4,7 +4,7 @@ title: Markdown简明语法
 date: 2016-04-11
 categories: blog
 tags: [语法,入门]
-description: 入门教程
+description: "入门教程"
 ---
 说明：网上其实有很多教程，这一篇当做字典，忘了就查。
 包括标题，代码块，字体，图片，链接，换行，引用

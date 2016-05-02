@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 读金庸传（一）
-date: 2016-04-18
+date: 2016-05-02
 categories: blog
 tags: [读书 思考]
 description: 金庸传

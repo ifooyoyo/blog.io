@@ -18,10 +18,10 @@ favicon: img/favicon.png
 
 douban_username:
 twitter_username:
-github_username:
+github_username:ifooyoyo
 facebook_username:
-weibo_username:
-zhihu_username:
+weibo_username:fooyoyo
+zhihu_username:yoyoshell
 
 # Build settings
 # use Github Flavored Markdown !important
@@ -50,9 +50,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name :
+    short_name :fooyoyho
   disqus :
-      short_name :
+      short_name :fooyoyo
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
