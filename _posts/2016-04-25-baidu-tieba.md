@@ -3,8 +3,8 @@ layout: post
 title: 百度贴吧被卖
 date: 2016-04-25
 categories: 思考
-tags: [学习]
-description: 一篇旧文
+tags: [学习 旧文]
+description: 一篇旧文，写于2015年
 ---
 
 ## 什么不能交易？

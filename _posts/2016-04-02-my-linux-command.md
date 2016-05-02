@@ -19,9 +19,11 @@ cd是change directory的缩写，切换路径的意思。第一种方法是使�
 如果没有home/test/test1目录怎么办？没关系，这里要用到mkdir命令新建目录。
 `mkdir home/test/test1`
 
+`ls` ls命令用于查看指定路径下的文件情况，如ls / 查看根目录下的文件夹 参数-a、-l用于查看文件属性和隐藏文件。
+
 **新建文件**用`touch filename`就行，比如`touch test.txt`。用`vim test.txt`也可以创建并写入。
 
-**移动文件**：mv home/test/test1 home/yoyo
+**移动文件**：mv home/test/test1 home/yoyo   mv命令还可以重命名文件，如`mv home/yoyo /home test`
 
 想查看当前目录下文件，用`ls`命令就好，`ls [-a] yoyo/www/`查看的就是`www`目录下的文件。如果加上`-a`，隐藏文件也可以查看
 
@@ -31,6 +33,16 @@ cd是change directory的缩写，切换路径的意思。第一种方法是使�
 ```find . -name *.txt//找出当前目录下所有txt文件：
 find /home/yoyo -mtime -1   //根据文件更改时间（这里是一天内更改）查找文件
 
+### 磁盘
+
+'sudo fdisk -l' 查看当前磁盘分区情况
+
+`df` 查看已挂载磁盘的总容量、使用容量、剩余容量等，一般加参数h方便查看
+
+`du`
+
+`mount`用于挂载磁盘，比如挂载sd2于mnt/2
+
 ## 任务管理
 
 ps aux 命令可以查看当前运行的程序（进程），就像Windows下同时按`Enter Shift Esc`的任务管理器一样。
@@ -38,7 +50,7 @@ ps aux 命令可以查看当前运行的程序（进程），就像Windows下同
 
 top 也是一个很不错的命令，作用于ps aux类似，侧重于查看进程占用资源情况。
 
-
+top -u yoyo  查看yoyo用户的进程
 
 ## 网络操作
 最常用的就是ping了，例如ping google.com（什么？ping不通，平常心），检查本机和目标主机的连通性。
