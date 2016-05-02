@@ -4,7 +4,7 @@ title: 软件测试之理论
 date: 2016-04-30
 categories: 软件测试
 tags: [工作 学习]
-description: “软件测试的一些理论和学习感想”
+description: "软件测试的一些理论和学习感想"
 ---
 ## 原则
 

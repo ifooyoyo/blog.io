@@ -4,7 +4,7 @@ title: 为何写博客
 date: 2016-04-01
 categories: blog
 tags: [思考]
-description: “思考，感悟”
+description: "思考，感悟"
 ---
 ## 为何写博客
 

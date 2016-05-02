@@ -4,7 +4,7 @@ title: 我常用的一些Linux命令
 date: 2016-04-02
 categories: blog
 tags: [学习]
-description: “都是自己常用的一些命令”
+description: "都是自己常用的一些命令"
 ---
 ## 目录文件操作
 
@@ -35,13 +35,11 @@ find /home/yoyo -mtime -1   //根据文件更改时间（这里是一天内更�
 
 ### 磁盘
 
-'sudo fdisk -l' 查看当前磁盘分区情况
+`sudo fdisk -l` 查看当前磁盘分区情况
 
 `df` 查看已挂载磁盘的总容量、使用容量、剩余容量等，一般加参数h方便查看
 
-`du`
-
-`mount`用于挂载磁盘，比如挂载sd2于mnt/2
+`mount`用于挂载磁盘，比如挂载sdb2于mnt/2 命令为`mount /dve/sdb2 /mnt/sdb2`
 
 ## 任务管理
 

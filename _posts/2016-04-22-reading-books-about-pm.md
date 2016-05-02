@@ -4,7 +4,7 @@ title: 产品设计书笔记
 date: 2016-04-22
 categories: blog
 tags: [思考 读书]
-description: 作者马力，基本是选自知乎的答案，可以前往亚马逊购买
+description: "作者马力，基本是选自知乎的答案，可以前往亚马逊购买"
 ---
 
 ## 笔记
