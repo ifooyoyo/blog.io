@@ -18,6 +18,7 @@ description: “vim配置”
 ## 配置
 
 简单配置
+
 ```
 "syntax
 syntax enable

@@ -59,7 +59,8 @@ USE DATABASE;    //只有选择了数据库才能进行操作
 CREATE TABLE mytable (name VARCHAR(20),age int,birth DATE);查看
 
  ![mytable](http://7xsx6z.com2.z0.glb.clouddn.com/show-tables.png)
-###  显示表的结构
+
+### 显示表的结构
 
 DESCRIBE mytable;   //语法为DESCRIBE TABLE_NAME
 

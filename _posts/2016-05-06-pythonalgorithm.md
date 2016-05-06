@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python搜索算法
-date: 2016-04-15
+date: 2016-05-06
 categories: blog
 tags: [Python]
 description: “Python算法之搜索实现”
@@ -25,6 +25,7 @@ print linear(a,54)
 ## 二分查找
 
 二分查找效率较高，但是它要求数组是有序序列。Python 内置函数sorted()可以直接将列表排序。二分查找的时间复杂度为`log n`
+
 ```
 def binarysearch(list,b):
     low=0
