@@ -13,7 +13,7 @@ description: “vim配置”
 ## 简介
 第一次安装Vim后打开，你肯定忍不住吐槽，还不如windows的notepad呢。别急，慢慢来——vim可以让你想怎么配怎么配。
 
-配置vim需要修改vim的配置文件`vimrc`，如果没有，则新建一个。`mkdir .vimrc`,注意是在目录`~`下创建。
+配置vim需要修改vim的配置文件`vimrc`，如果没有，则新建一个。`vim .vimrc`,注意是在目录`~`下创建。
 
 ## 配置
 
@@ -41,6 +41,7 @@ set nocompatible
 "配色方案
 set background
 colorscheme molokai
+
 ```
 ## 插件
 
