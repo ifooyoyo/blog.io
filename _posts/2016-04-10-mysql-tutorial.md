@@ -29,10 +29,10 @@ description: "mysql是最流行的数据库之一"
 ### 查看版本
 mysqladmin –version
 
-比如我的结果为mysqladmin  Ver 8.42 Distrib 5.1.73, for redhat-linux-gnu on i386
+比如我的结果为`mysqladmin  Ver 8.42 Distrib 5.1.73, for redhat-linux-gnu on i386`
 
 ### 设置开机自启动
-chkconfig mysqld on
+`chkconfig mysqld on`
 
 MySQL安装成功后，默认的root用户密码为空，你可以使用以下命令来创建root用户的密码:
 
