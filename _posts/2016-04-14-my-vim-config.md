@@ -44,8 +44,8 @@ set background
 colorscheme molokai
 
 ```
-## 插件
 
+## 插件
 插件才是重点，一些常用插件有Vundle（插件管理器），YouCompleteMe（代码补全,名字取得多浪漫），主题等，其他插件根据开发而定。
 
 ## 搬运工
