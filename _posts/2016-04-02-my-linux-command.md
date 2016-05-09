@@ -8,6 +8,7 @@ description: "都是自己常用的一些命令"
 ---
 ## 目录文件操作
 
+首先先说一下命令格式：命令+[选项]+参数，如`ls -al /home/yoyo`选项可选或者默认
 首先确定当前所在目录`pwd`;目录就相当于Windows下的文件夹
 再次切换路径，比如当前路径为`home/yoyo`(yoyo为我的用户名)，希望切换到home/test/test1/目录下，有两种方法：
 
@@ -23,13 +24,15 @@ cd是change directory的缩写，切换路径的意思。第一种方法是使�
 
 **新建文件**用`touch filename`就行，比如`touch test.txt`。用`vim test.txt`也可以创建并写入。
 
+**删除文件**：`rm [选项] 文件`选项有-r(递归删除，删除某一目录下所有文件及子目录）,-i（交互删除，询问是否删除），-f(强力删除，不提示)。也可用rmdir删除空目录，加选项-p即可删除非空目录
+
 **移动文件**：mv home/test/test1 home/yoyo   mv命令还可以重命名文件，如`mv home/yoyo /home test`
 
 想查看当前目录下文件，用`ls`命令就好，`ls [-a] yoyo/www/`查看的就是`www`目录下的文件。如果加上`-a`，隐藏文件也可以查看
 
 **复制目录（文件）**：`cp directory(file) newpath`
 
-**查找文件**：某个文件创建了不记得放哪了，自己的后缀或者文件名咋办？这时候就需要find命令了，find命令形式为：`find pathname -option [-print -exec -ok]，命令选项有`-name`、`-mtime -n/+n`等，例如
+**查找文件**：某个文件创建了不记得放哪了，自己的后缀或者文件名咋办？这时候就需要find命令了，find命令形式为：`find pathname -option [-print -exec -ok]，命令选项有`-name`、`-mtime -n/+n`等，可以实现按照权限、关键字、类型、大小查找。例如
 ```find . -name *.txt//找出当前目录下所有txt文件：
 find /home/yoyo -mtime -1   //根据文件更改时间（这里是一天内更改）查找文件
 
@@ -71,7 +74,7 @@ top -u yoyo  查看yoyo用户的进程
 ```
 cat text.txt | grep ^u    //输出text.txt中以u开头的行
 
-dpkg -l | wc              //ubuntu中查看目前安装的包数量
+dpkg -l | wc -l             //ubuntu中查看目前安装的包数量
 
 ```
 
