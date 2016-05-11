@@ -46,7 +46,7 @@ mysql -u root -p    //输入密码
 
 ### 创建数据库
 
-CREATE DATABASE yoyo；       //关键字大小写不敏感
+CREATE DATABASE yoyo；       //关键字大小写不敏感,`create database yoyo;`也行
 
 删除用DROP DATABASE yoyo;
 
