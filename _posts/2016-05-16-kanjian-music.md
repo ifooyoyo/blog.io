@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 看见音乐客户端分析
-date: 2016-05-17
+date: 2016-05-16
 categories: blog
 tags: [学习 产品]
 description: "产品的几个思考"
