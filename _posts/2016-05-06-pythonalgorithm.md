@@ -11,9 +11,9 @@ description: “Python算法之搜索实现”
 线性查找有点简单粗暴，直接从第一个开始匹配，若符合则停止，并返回查找结果，若失败，可自定义返回结果。
 
 ```
-def linear(list,b):
-    for i in range(0,len(list)):
-        if list[i]==b:
+def linear(alist,b):
+    for i in range(0,len(alist)):
+        if alist[i]==b:
              return i
     return "do not exist"
 a=[1,3,5,8,12,16,19,32,67]
@@ -53,21 +53,21 @@ print binarysearch(a,13)
 合并原理是两个列表逐个比较，将较小的元素添加进入新的列表，并在原列表删除元素。最后比较完成之后，不管哪个列表更长，都将剩余元素添加到新列表。
 
 ```
-def MergeSort(l1, l2):
+def mergesort(L1, L2):
     tmp = []
-    while len(l1) > 0 and len(l2) > 0:
-        if l1[0] < l2[0]:
-            tmp.append(l1[0])
-            del l1[0]
-        #elif l1[0]==l2[0]:
-        #   tmp.append(l2[0])
-        #   del l1[0]
-        #  del l2[0]        #如果对应位置相同，则只添加一个
+    while len(L1) > 0 and len(L2) > 0:
+        if L1[0] < L2[0]:
+            tmp.append(L1[0])
+            del L1[0]
+        #elif L1[0]==L2[0]:
+        #   tmp.append(L2[0])
+        #   del L1[0]
+        #   del L2[0]        #如果对应位置相同，则只添加一个
         else:
-            tmp.append(l2[0])
-            del l2[0]
-    tmp.extend(l1)
-    tmp.extend(l2)
+            tmp.append(L2[0])
+            del L2[0]
+    tmp.extend(L1)
+    tmp.extend(L2)
     return tmp
 L1=[1,3,6,8,12,34]
 L2=[2,4,7,8,12,38,46]
