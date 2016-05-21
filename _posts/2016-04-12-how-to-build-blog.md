@@ -3,7 +3,7 @@ layout: post
 title: 如何搭建个人博客
 date: 2016-4-12
 categories: blog
-tags: [总结,记录]
+tags: [总结]
 description: "博客搭建记录"
 ---
 ## 前言

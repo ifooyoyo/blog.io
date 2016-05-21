@@ -3,7 +3,7 @@ layout: post
 title: Mysql简明语法
 date: 2016-04-10
 categories: blog
-tags: [语法,入门]
+tags: [语法]
 description: "mysql是最流行的数据库之一"
 ---
 # 简明MySQL笔记

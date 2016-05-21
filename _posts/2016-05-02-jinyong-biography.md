@@ -3,7 +3,7 @@ layout: post
 title: 读金庸传（一）
 date: 2016-05-02
 categories: blog
-tags: [读书 思考]
+tags: [读书]
 description: "读金庸传"
 ---
 ## 金庸先生其人其事

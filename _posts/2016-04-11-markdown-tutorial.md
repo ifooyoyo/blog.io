@@ -3,7 +3,7 @@ layout: post
 title: Markdown简明语法
 date: 2016-04-11
 categories: blog
-tags: [语法,入门]
+tags: [语法]
 description: "入门教程"
 ---
 说明：网上其实有很多教程，这一篇当做字典，忘了就查。

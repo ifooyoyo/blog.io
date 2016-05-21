@@ -3,7 +3,7 @@ layout: post
 title: 如何阅读一本书
 date: 2016-04-21
 categories: blog
-tags: [思考 读书]
+tags: [读书]
 description: "关于如何阅读一本书"
 ---
 ## 如何阅读一本书？

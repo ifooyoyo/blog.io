@@ -46,14 +46,6 @@ defaults:
       author: "fooyoyo"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : fooyoyo
-  disqus :
-      short_name : fooyoyo
-
 # Analytics and webmaster tools stuff goes here
 google_analytics:
 google_verify:

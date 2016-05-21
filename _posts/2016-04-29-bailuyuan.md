@@ -3,7 +3,7 @@ layout: post
 title: 纪念陈忠实老师
 date: 2016-04-29
 categories: 思想
-tags: [思考 读书]
+tags: [读书]
 description: "《白鹿原》作者陈忠实先生去世有感"
 ---
 ##  永远的《白鹿原》
