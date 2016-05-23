@@ -8,18 +8,17 @@ url: "http://fooyoyo.cc"
 
 # About/contact
 owner:
-  name: " fooyoyo"
-  email: ifoyoyo@gmail.com
+  name: "fooyoyo"
+  email: ifooyoyo@gmail.com
   bio: "人总得干点什么"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:
-twitter_username:
+
+
 github_username: ifooyoyo
-facebook_username:
 weibo_username: fooyoyo
 zhihu_username: yoyoshell
 
