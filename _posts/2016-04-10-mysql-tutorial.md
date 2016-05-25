@@ -27,7 +27,7 @@ description: "mysql是最流行的数据库之一"
 环境 Cent os 6.5，安装mysql。
 
 ### 查看版本
-mysqladmin –version
+`mysqladmin –version`
 
 比如我的结果为`mysqladmin  Ver 8.42 Distrib 5.1.73, for redhat-linux-gnu on i386`
 
@@ -56,23 +56,24 @@ USE DATABASE;    //只有选择了数据库才能进行操作
 
 ### 创建表
 
-CREATE TABLE mytable (name VARCHAR(20),age int,birth DATE);查看
+`CREATE TABLE mytable (name VARCHAR(20),age int,birth DATE);`查看
 
  ![mytable](http://7xsx6z.com2.z0.glb.clouddn.com/show-tables.png)
 
 ### 显示表的结构
 
-DESCRIBE mytable;   //语法为DESCRIBE TABLE_NAME
+`DESCRIBE mytable;`   //语法为DESCRIBE TABLE_NAME
 
- ![mytable](http://7xsx6z.com2.z0.glb.clouddn.com/show-tables.png)
+![mytable](http://7xsx6z.com2.z0.glb.clouddn.com/show-tables.png)
 
 ### 插入数据
 
 插入数据用insert，
-insert into mytable values("yoyo",22,'1993-07-11'); //你看，大小写确实不敏感
+
+`insert into mytable values("yoyo",22,'1993-07-11'); `//你看，大小写确实不敏感
 
 ### 查看数据
-select * from mytable
+`select * from mytable`
 
 ### 导入数据
 
@@ -81,18 +82,17 @@ select * from mytable
 
 警告的原因是txt文件中有两行是空的。删除数据：把两行空行删除。
 
-delete from mytable where age=0；
+`delete from mytable where age=0；`
 
-记住 where语句用处大。
-导出数据语法是 dump data
+记住 where语句用处大。导出数据语法是 dump data
 
 ### 添加列
-alter table mytable add birth_addr varchar(20);  //格式为 ALTER TABLE TABLE_NAME ADD COLUMN_NAME DATATYPE
+`alter table mytable add birth_addr varchar(20);`  //格式为 ALTER TABLE TABLE_NAME ADD COLUMN_NAME DATATYPE
 
 ### 添加约束
 分为主键约束，值约束。这里添加主键约束。
 
-alter table mytable add primary key (id);
+`alter table mytable add primary key (id);`
 
 ### 更新数据
 

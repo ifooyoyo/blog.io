@@ -27,15 +27,15 @@ print linear(a,54)
 二分查找效率较高，但是它要求数组是有序序列。Python 内置函数sorted()可以直接将列表排序。二分查找的时间复杂度为`log n`
 
 ```
-def binarysearch(list,b):
+def binarysearch(alist,b):
     low=0
-    high=len(list)-1
+    high=len(alist)-1
     j="do not exsit"
     while low<high:
         c=(low+high)/2
-        if b==list[c]:
+        if b==alist[c]:
             j=c
-        if b<list[c]:
+        if b<alist[c]:
             high=c-1
         else:
             low=c+1

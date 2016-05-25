@@ -2,7 +2,7 @@
 layout: post
 title: 百度贴吧被卖
 date: 2016-04-25
-categories: 思考
+categories: blog
 tags: [思考]
 description: "一篇旧文，写于2015年"
 ---
