@@ -3,7 +3,7 @@ layout: post
 title: 我常用的一些Linux命令
 date: 2016-04-02
 categories: blog
-tags: [学习]
+tags: [Linux]
 description: "都是自己常用的一些命令"
 ---
 ## 目录文件操作
