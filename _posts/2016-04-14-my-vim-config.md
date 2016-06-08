@@ -3,7 +3,7 @@ layout: post
 title: 我的Vim配置学习之路
 date: 2016-04-14
 categories: blog
-tags: [配置]
+tags: [学习]
 description: “vim配置”
 ---
 ## 为何用vim

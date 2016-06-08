@@ -3,7 +3,7 @@ layout: post
 title: 狂想
 date: 2016-05-15
 categories: blog
-tags: [杂想]
+tags: [杂]
 description: "未来"
 ---
 

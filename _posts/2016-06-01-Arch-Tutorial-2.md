@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  arch xmonad桌面使用指南
+title:  Arch xmonad桌面使用指南
 date: 2016-05-29
 categories: blog
 tags: [Linux]
@@ -14,6 +14,7 @@ description:  "arch linux"
 
 安装的是xmonad桌面，桌面任选，比如Gnome，个人安装的是xmonad桌面管理，具体配置方法[点击查看](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
 推荐一个配置：[xmonad配置](https://github.com/jiajunhuang/dotxmonad)
+
 ## 对比
 软件安装基本相同，word换成了wps，没有安装微信和QQ, "C"盘对比如下如图，其中windows系统截图知识C盘的windows文件夹，40G剩下1.7G：
 window：
