@@ -3,7 +3,7 @@ layout: post
 title: 排序算法的几点记录
 date: 2016-04-09
 categories: blog
-tags: [读书]
+tags: [Python]
 description: "Python笔记"
 ---
 
