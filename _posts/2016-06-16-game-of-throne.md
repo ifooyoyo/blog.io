@@ -76,4 +76,5 @@ description:  " 冰与火之歌记录 "
 
 ## 人物关系图
 
-![冰与火之歌关系](http://7xsx6z.com1.z0.glb.clouddn.com/%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C.png)
+![冰与火之歌关系](http://7xsx6z.com1.z0.glb.clouddn.com/game%20of%20thrones.png)
+

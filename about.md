@@ -1,21 +1,15 @@
-ln - ---
+---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: "Stay hungry,Stay foolish "
 header-img: "img/green.jpg"
 ---
-## 说明
-
-学习思考用。
-
-此博客 fork 自 [Azeril](http://azeril.me/)，感谢。
 
 ## 简介
-学习者，理想主义者，半完美主义者，伪文艺青年。
 
-我的博客：[fooyoyo.cc](fooyoyo.cc)
+学习者，理想主义者，半完美主义者，伪文艺青年。喜欢产品，爱好学习。希望世界因自己而更美好了一点，至少、哪怕一点
 
-热爱生活，热爱生命。
+热爱生活，热爱生命
 
 ## 爱好
 
@@ -26,6 +20,7 @@ header-img: "img/green.jpg"
 
 ## 书籍
 
+- 《浪潮之巅》
 - 《Just for fun》
 - 《哲学家都干了些什么》
 - 《老子》
@@ -36,7 +31,7 @@ header-img: "img/green.jpg"
 
 永远年轻，永远热泪盈眶
 
-本博客只要用于学习和写作，一些笔记和教程尽管我写的时候尽量避免。但还是难免会出现错误，我会不时翻看，检查。造成困扰，道歉。
+本博客用于学习、思考、记录。博客 fork 自 [Azeril](http://azeril.me/)，感谢。一些笔记和教程尽管我写的时候尽量避免——但还是难免会出现错误，我会不时翻看，检查。造成不必要的困扰，抱歉。
 
 
 
